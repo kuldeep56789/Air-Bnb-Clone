@@ -1,0 +1,75 @@
+*{
+    font-family: "Puls Jakarta Sans",sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+    overflow-x: hidden;
+}
+
+.container{
+    flex: 1;
+}
+
+.img_of_Edit{
+    height: 20rem;
+    width: 18rem;
+}
+.add_btn{
+    background-color: #fe424d;
+    border: none;
+    transition: 0.4s ease-in-out;
+}
+.add_btn:hover{
+    border: none;
+    background-color: #ee424d;
+    color: white;
+}
+
+.logo{
+    height: 2.5rem;
+    width: 8rem;    
+}
+.navbar{
+    padding: 10px 0px;
+    color: #222222;
+    background-color: rgba(255,255,255, 0.91);
+    border-bottom: 1px solid black;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Card */
+
+.card{
+    border: none;
+    margin: 1rem;
+}
+.card-img-top{
+    border-radius: 1rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body{
+    padding: 0;
+}
+
+.listing-link{
+    text-decoration: none;
+    color: black;
+}
+
+.card-img-overlay{
+   opacity: 0;
+   background-color: white; 
+}
+
+.card-img-overlay:hover{
+    opacity: 0.1;
+    background-color: white;
+}
