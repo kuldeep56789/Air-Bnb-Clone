@@ -22,12 +22,12 @@ main().then(()=>{
     console.log("database connected");
 });
 
-app.get("/listing",async (req,res)=>{
+app.get("/index",async (req,res)=>{
     let allListing = await listing.find({});
     res.render("listings/index.ejs",{listing:allListing});
 });
 
-app.get("/listing/new",(req,res)=>{
+app.get("/index/new",(req,res)=>{
     res.render("listings/newListing.ejs");
 });
 
