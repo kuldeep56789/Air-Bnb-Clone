@@ -67,3 +67,8 @@ app.post("/listing",async (req,res)=>{
 app.listen(8080,(req,res)=>{
     console.log("port is listning on 8080");
 });
+
+
+app.get("/projects",(req,res)=>{
+    res.send("new change in project.")
+})
