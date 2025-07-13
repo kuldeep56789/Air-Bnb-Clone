@@ -67,3 +67,7 @@ app.post("/listing",async (req,res)=>{
 app.listen(8080,(req,res)=>{
     console.log("port is listning on 8080");
 });
+
+app.get("/jira",(req,res)=>{
+    res.send("JIRA added for project management");
+})
